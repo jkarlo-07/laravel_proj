@@ -1,15 +1,12 @@
 <?php
 
-use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Route;
 use App\Models\Job;
 
 
 
 Route::get('/', function () {
-    return view('home', [
-        'greeting' => 'Yo'
-    ]);
+    return view('home');
 });
 
 
